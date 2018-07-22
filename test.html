@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>这是一个标题</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">顶部（header）</div>
+            <div id="main">
+                <div class="cat">商品分类(cat)</div>
+                <div class="content">
+                    <span style="font-size:72px" id="clock">00:10:00:00</span><br>
+                    <input id="startB" class="button" type="button" value="start countdown!" onclick="run()">
+                    <input id="endB" class="button" type="button" value="stop countdown!" onclick="stop()">
+                    <br><br>
+                    <input id="diff" class="text" type="text">
+                    <input id="next" class="text" type="text">
+                </div>
+                <div class="sidebar">右侧(sidebar)</div>
+            </div>
+            <div id="footer">底部（footer）</div>
+        </div>
+        <script type="text/javascript" src="countdown.js"></script>
+    </body>
+    </html>
